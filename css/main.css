@@ -1,0 +1,47 @@
+@import url("reset.css");
+@import url("./components/button.css");
+@import url("./shared/header.css");
+@import url("./shared/footer.css");
+@import url("./components/hero.css");
+@import url("./components/section.css");
+@import url("./pages/faqs.css");
+
+:root {
+  --color-white: #ffffff;
+  --color-raisin-black: #28282b;
+  --white-smoke: #f5f5f5;
+}
+
+html {
+  background-color: var(--color-raisin-black);
+}
+
+body {
+  background-color: var(--white-smoke);
+  color: var(--color-raisin-black);
+  display: grid;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  grid-template-rows: auto auto 1fr;
+  padding-top: 88px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin-inline: auto;
+  max-width: 85vw;
+  width: min(90vw, 85rem);
+}

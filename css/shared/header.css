@@ -1,0 +1,31 @@
+.header {
+  background-color: var(--color-raisin-black);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar__list {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  font-size: 1.125rem;
+  list-style: none;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+@media (min-width: 768px) {
+  #navbar__list {
+    flex-direction: row;
+  }
+}
+
+.navbar__item {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.navbar__item.active {
+  border-bottom: 3px solid var(--color-white);
+}

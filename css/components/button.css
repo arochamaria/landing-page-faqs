@@ -1,0 +1,10 @@
+.btn__collapse {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn__collapse svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}

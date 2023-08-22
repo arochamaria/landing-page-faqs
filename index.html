@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Manipulating the DOM</title>
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar__menu">
+          <ul id="navbar__list"></ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <header class="hero">
+          <h1>Frequently asked questions</h1>
+        </header>
+        <section id="section1" data-nav="Getting started" class="topic">
+          <header class="topic__header">
+            <h2 class="topic__title">Getting started</h2>
+            <button type="button" class="btn__collapse">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 669 401"
+              >
+                <path
+                  fill="#000"
+                  fill-rule="evenodd"
+                  d="M648.652 19.575c-26.1-26.1-68.38-26.1-94.48 0l-220.069 220.07-220.041-220.03c-26.1-26.11-68.38-26.11-94.48 0-26.11 26.06-26.11 68.43 0 94.48l267.3 267.3c13.01 13.06 30.101 19.57 47.221 19.57 17.11 0 34.21-6.51 47.26-19.57l267.309-267.3c26.05-26.09 26.05-68.41-.02-94.52Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </header>
+          <div class="topic__content">
+            <h3>Lorem ipsum dolor sit amet?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>
+              Curabitur id nisi id velit vestibulum vulputate. Morbi posuere
+              dignissim tellus, in consectetur diam venenatis a. Phasellus ut
+              hendrerit ligula.
+            </p>
+            <p>
+              Nulla facilisi. Nunc et ante fringilla elit pulvinar imperdiet non
+              in risus. Maecenas accumsan iaculis neque. Maecenas lectus lectus,
+              tristique sed purus sed, porta molestie erat.
+            </p>
+            <h3>Nullam vitae luctus mauris?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>
+              Sed dignissim a ex sed maximus. Phasellus risus ipsum, porttitor
+              nec semper sit amet, tristique id magna. Maecenas faucibus, diam
+              nec scelerisque gravida, augue augue consequat diam, nec dignissim
+              purus leo vel leo.
+            </p>
+            <p>
+              In quis nunc augue. Ut sit amet commodo lectus, at volutpat purus.
+              Etiam tincidunt iaculis commodo.
+            </p>
+            <h3>Aliquam erat volutpat?</h3>
+            <p>
+              Donec porttitor vel eros quis mollis. Proin ultricies nisi non
+              erat cursus, nec egestas eros scelerisque. Vestibulum blandit
+              lectus eu ex efficitur cursus. Sed sem erat, faucibus a metus
+              eget, viverra congue dolor.
+            </p>
+            <p>
+              Curabitur in blandit orci. Duis semper orci odio, id vulputate
+              metus pellentesque id. Sed imperdiet eros non odio convallis, non
+              consectetur metus ultricies.
+            </p>
+            <p>
+              Ut cursus luctus ex ut posuere. Ut vel dui augue. Nam iaculis orci
+              odio, a hendrerit tellus sollicitudin nec. Sed egestas eu purus in
+              dapibus.
+            </p>
+
+            <h3>Aliquam erat volutpat?</h3>
+            <p>
+              Donec porttitor vel eros quis mollis. Proin ultricies nisi non
+              erat cursus, nec egestas eros scelerisque. Vestibulum blandit
+              lectus eu ex efficitur cursus. Sed sem erat, faucibus a metus
+              eget, viverra congue dolor.
+            </p>
+            <p>
+              Curabitur in blandit orci. Duis semper orci odio, id vulputate
+              metus pellentesque id. Sed imperdiet eros non odio convallis, non
+              consectetur metus ultricies.
+            </p>
+            <p>
+              Ut cursus luctus ex ut posuere. Ut vel dui augue. Nam iaculis orci
+              odio, a hendrerit tellus sollicitudin nec. Sed egestas eu purus in
+              dapibus.
+            </p>
+          </div>
+        </section>
+        <section id="section2" data-nav="My account" class="topic">
+          <header class="topic__header">
+            <h2 class="topic__title">My Account</h2>
+            <button type="button" class="btn__collapse">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 669 401"
+              >
+                <path
+                  fill="#000"
+                  fill-rule="evenodd"
+                  d="M648.652 19.575c-26.1-26.1-68.38-26.1-94.48 0l-220.069 220.07-220.041-220.03c-26.1-26.11-68.38-26.11-94.48 0-26.11 26.06-26.11 68.43 0 94.48l267.3 267.3c13.01 13.06 30.101 19.57 47.221 19.57 17.11 0 34.21-6.51 47.26-19.57l267.309-267.3c26.05-26.09 26.05-68.41-.02-94.52Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </header>
+          <div class="topic__content">
+            <h3>Nulla vulputate fermentum tortor nec dignissim.?</h3>
+            <p>
+              Orci varius natoque penatibus et magnis dis parturient montes,
+              nascetur ridiculus mus. Orci varius natoque penatibus et magnis
+              dis parturient montes, nascetur ridiculus mus.
+            </p>
+            <p>
+              Curabitur id nisi id velit vestibulum vulputate. Morbi posuere
+              dignissim tellus, in consectetur diam venenatis a. Phasellus ut
+              hendrerit ligula.
+            </p>
+            <p>
+              Sed ut mauris ac quam suscipit ultricies in malesuada lacus. Nulla
+              rutrum diam ut leo congue varius. Sed commodo semper lorem at
+              sagittis.
+            </p>
+            <h3>Proin ut ex nisl. Sed at enim dui?</h3>
+            <p>
+              Donec vehicula enim viverra pulvinar maximus. Sed id gravida
+              lectus, eu vestibulum ipsum. Proin tincidunt metus iaculis
+              eleifend imperdiet.
+            </p>
+            <p>
+              Sed posuere turpis a urna blandit, ut finibus purus pellentesque.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia curae; Pellentesque mollis sapien quis magna
+              volutpat, eu hendrerit elit posuere. Pellentesque sit amet leo ac
+              justo suscipit efficitur eget vitae quam. Cras posuere dignissim
+              lorem. Aliquam ultricies scelerisque sapien, non molestie arcu
+              efficitur non.
+            </p>
+            <p>
+              Proin mollis et mi ut commodo. Suspendisse vestibulum vitae lorem
+              ac vehicula. Aliquam sodales ornare magna, ac bibendum odio
+              vulputate ut. Nunc quam magna, lacinia vel dolor ornare, molestie
+              mattis sapien. Praesent in maximus quam. Nulla nec mollis augue.
+              Sed vel ex nibh.
+            </p>
+            <h3>Quisque laoreet, odio gravida mollis?</h3>
+            <p>
+              Phasellus ornare mattis condimentum. Nam eget nisi rutrum, varius
+              augue eget, fermentum tellus. Pellentesque est odio, laoreet quis
+              risus ut, sollicitudin finibus sapien.
+            </p>
+          </div>
+        </section>
+        <section id="section3" data-nav="Contact questions" class="topic">
+          <header class="topic__header">
+            <h2 class="topic__title">Contact questions</h2>
+            <button type="button" class="btn__collapse">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 669 401"
+              >
+                <path
+                  fill="#000"
+                  fill-rule="evenodd"
+                  d="M648.652 19.575c-26.1-26.1-68.38-26.1-94.48 0l-220.069 220.07-220.041-220.03c-26.1-26.11-68.38-26.11-94.48 0-26.11 26.06-26.11 68.43 0 94.48l267.3 267.3c13.01 13.06 30.101 19.57 47.221 19.57 17.11 0 34.21-6.51 47.26-19.57l267.309-267.3c26.05-26.09 26.05-68.41-.02-94.52Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </header>
+          <div class="topic__content">
+            <h3>Sed tristique, lectus a condimentum pulvinar?</h3>
+            <p>
+              Ut vel ornare nibh, ut pharetra nulla. Quisque tempus egestas
+              posuere.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vestibulum pharetra, urna nec interdum ullamcorper, eros neque
+              viverra risus, nec scelerisque turpis odio id mauris.
+            </p>
+            <p>
+              Vestibulum eget convallis elit. Interdum et malesuada fames ac
+              ante ipsum primis in faucibus. Maecenas suscipit erat justo, vel
+              malesuada sem sodales eget. Suspendisse id risus sit amet odio
+              sodales volutpat non sed quam. Ut nec ante quam. Nam facilisis
+              faucibus magna. Quisque vel est enim. In hac habitasse platea
+              dictumst.
+            </p>
+            <h3>Proin ut ex nisl. Sed at enim dui?</h3>
+            <p>
+              Donec vehicula enim viverra pulvinar maximus. Sed id gravida
+              lectus, eu vestibulum ipsum. Proin tincidunt metus iaculis
+              eleifend imperdiet.
+            </p>
+            <p>
+              Sed posuere turpis a urna blandit, ut finibus purus pellentesque.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+              posuere cubilia curae; Pellentesque mollis sapien quis magna
+              volutpat, eu hendrerit elit posuere. Pellentesque sit amet leo ac
+              justo suscipit efficitur eget vitae quam. Cras posuere dignissim
+              lorem. Aliquam ultricies scelerisque sapien, non molestie arcu
+              efficitur non.
+            </p>
+            <p>
+              Proin mollis et mi ut commodo. Suspendisse vestibulum vitae lorem
+              ac vehicula. Aliquam sodales ornare magna, ac bibendum odio
+              vulputate ut. Nunc quam magna, lacinia vel dolor ornare, molestie
+              mattis sapien. Praesent in maximus quam. Nulla nec mollis augue.
+              Sed vel ex nibh.
+            </p>
+            <h3>Quisque laoreet, odio gravida mollis?</h3>
+            <p>
+              Phasellus ornare mattis condimentum. Nam eget nisi rutrum, varius
+              augue eget, fermentum tellus. Pellentesque est odio, laoreet quis
+              risus ut, sollicitudin finibus sapien.
+            </p>
+          </div>
+        </section>
+        <section id="section4" data-nav="Developers" class="topic">
+          <header class="topic__header">
+            <h2 class="topic__title">Developers</h2>
+            <button type="button" class="btn__collapse">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 669 401"
+              >
+                <path
+                  fill="#000"
+                  fill-rule="evenodd"
+                  d="M648.652 19.575c-26.1-26.1-68.38-26.1-94.48 0l-220.069 220.07-220.041-220.03c-26.1-26.11-68.38-26.11-94.48 0-26.11 26.06-26.11 68.43 0 94.48l267.3 267.3c13.01 13.06 30.101 19.57 47.221 19.57 17.11 0 34.21-6.51 47.26-19.57l267.309-267.3c26.05-26.09 26.05-68.41-.02-94.52Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </header>
+          <div class="topic__content">
+            <h3>
+              Nam eget metus lorem. Suspendisse porttitor bibendum erat, id
+              convallis massa tristique nec?
+            </h3>
+            <p>
+              Duis scelerisque, erat ut hendrerit cursus, massa velit
+              condimentum elit, ut vehicula tortor dolor eleifend urna.
+              Suspendisse vulputate sagittis sem, finibus lobortis sem sodales
+              vel. Fusce ut purus magna. Nam lacinia, massa at hendrerit
+              consectetur, nisi nisi rhoncus mi, eget blandit tellus massa ac
+              metus. Proin pretium libero justo.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+              at tortor id dui hendrerit pretium. Morbi vestibulum, ipsum at
+              pellentesque porttitor, diam elit interdum mi, convallis viverra
+              eros libero a ligula. Nulla nec porta enim. Proin consectetur
+              felis consectetur tempor facilisis. Aliquam lorem orci, congue ac
+              ultrices in, efficitur et metus. Morbi magna ante, sagittis ac mi
+              eget, dictum malesuada dolor. Nullam eleifend arcu a porta
+              hendrerit. Nunc at sapien semper, vulputate lectus eget,
+              condimentum ante. Vestibulum mollis, arcu et porta finibus, enim
+              orci fermentum augue, sit amet dignissim urna tellus eu metus.
+            </p>
+            <p>
+              Suspendisse vel justo eget sapien dictum interdum sed sit amet
+              lectus.
+            </p>
+            <h3>Aliquam lacinia semper nisl ac molestie?</h3>
+            <p>
+              Nullam vitae purus sit amet metus vehicula viverra. Etiam mollis
+              cursus odio, ut scelerisque arcu rutrum ut. Etiam nulla orci,
+              dictum nec diam sed, accumsan molestie lorem. Etiam nulla ligula,
+              tincidunt vitae auctor sed, tincidunt sit amet sem. Orci varius
+              natoque penatibus et magnis dis parturient montes, nascetur
+              ridiculus mus. Pellentesque at diam tellus. Maecenas sollicitudin
+              justo ut pharetra mollis. Aliquam sed aliquet ante, id aliquam
+              eros. Nunc ac erat et lectus consequat mattis in ac nisi. In
+              aliquet quam nec nisl hendrerit laoreet.
+            </p>
+            <p>
+              Aenean luctus justo ac nibh fringilla, imperdiet venenatis quam
+              laoreet. Praesent a eros ut ante dictum scelerisque. Proin
+              molestie enim eros, ut pulvinar nisl posuere vel. Donec eget
+              porttitor sapien. In a iaculis magna. Donec id augue eleifend,
+              elementum arcu quis, dignissim lorem. Aenean turpis neque,
+              pharetra porta odio eu, sodales pretium purus. Praesent ac neque
+              sit amet mauris placerat posuere. Cras mattis nulla et justo
+              iaculis, et finibus urna dignissim. Nunc nisi mi, tempor vel
+              iaculis vitae, pellentesque id mi. Donec ex nisi, facilisis et leo
+              sit amet, elementum hendrerit neque.
+            </p>
+            <p>
+              Curabitur mattis consequat odio, nec ullamcorper urna sollicitudin
+              eu. Mauris vitae ullamcorper nisl, et vulputate diam. In hac
+              habitasse platea dictumst. Duis varius vulputate ultrices. Etiam
+              imperdiet venenatis ligula ac vulputate. In hac habitasse platea
+              dictumst. Nulla dignissim finibus interdum. Integer fermentum
+              aliquet purus a commodo. Integer consequat magna ut massa
+              consectetur, sed mattis enim sagittis. Aenean sodales libero et
+              consequat pulvinar.
+            </p>
+            <h3>Aliquam lacinia semper nisl ac molestie?</h3>
+            <p>
+              Sed sed sodales ex, eget tempor risus. Nullam ornare tortor et mi
+              tempus, et posuere risus rutrum. Pellentesque eu imperdiet mi.
+              Donec sagittis augue pulvinar, aliquet eros id, venenatis diam.
+              Aenean faucibus felis porttitor facilisis aliquam. Sed viverra
+              finibus ante id suscipit.
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p>&copy Udacity</p>
+        <p class="footer__copyright">
+          This is a personal blog by Maria Arocha, following the Udacity
+          Front-End Nanodegree program. The images I've used do not belong to
+          me.
+        </p>
+      </div>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
